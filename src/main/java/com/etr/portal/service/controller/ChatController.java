@@ -1,5 +1,6 @@
 package com.etr.portal.service.controller;
 
+import com.java.model.ChatObject;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +12,6 @@ public class ChatController {
 
     @GetMapping("/fetch-all/{userId}")
     public ResponseEntity<?> getAllChatsOfUser (String userId) {
-        return new ResponseEntity<>();
+        return ResponseEntity.ok(new ChatObject());
     }
 }
