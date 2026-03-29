@@ -1,4 +1,4 @@
-package com.etr.portal.service;
+package com.etr.portal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

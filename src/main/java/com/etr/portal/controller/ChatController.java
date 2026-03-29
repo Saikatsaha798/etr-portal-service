@@ -1,6 +1,6 @@
-package com.etr.portal.service.controller;
+package com.etr.portal.controller;
 
-import com.java.model.ChatObject;
+import com.etr.model.ChatObject;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.etr.portal.service;
+package com.etr.portal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
