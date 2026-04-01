@@ -33,6 +33,6 @@ public class KafkaMessageProducer implements KafkaProducer<MessageObject> {
      * @param messageObject the message object
      */
     public void publishMessage(MessageObject messageObject) {
-        publish(kafkaProperties.getTopicMessageConversation(), messageObject.getMessageId(), messageObject);
+        publish(kafkaProperties.getMessageConversation(), messageObject.getMessageId(), messageObject);
     }
 }
